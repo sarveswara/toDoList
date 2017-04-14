@@ -1,0 +1,27 @@
+{
+"records":[
+    {
+        "projectId": 1,
+        "projectName": "Kongsberg Automotive FMS",
+        "proejctStatus": "In progress"
+    },
+
+{
+    "projectId": 2,
+    "projectName": "Leads Management System",
+    "proejctStatus": "done"
+},
+
+{
+    "projectId": 3,
+    "projectName": "Coldwell",
+    "proejctStatus": "done"
+},
+
+{
+    "projectId": 4,
+    "projectName": "Auto Loss",
+    "proejctStatus": "done"
+}
+]
+}

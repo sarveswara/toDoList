@@ -1,0 +1,14 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A23F72D2-B0CE-4E03-9A8A-ECB15C7B1125}"
+	ProjectSection(SolutionItems) = preProject
+		projdesc.json = projdesc.json
+		todoContent.json = todoContent.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

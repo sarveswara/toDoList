@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <script src="library\angular\angular.js"></script>
+        <script src="library\angular\angular-ui-router.min.js"></script>
+        <script src="library\angular\angular-mocks.js"></script>
+        <link rel="stylesheet" href="library/bootstrap/dist/css/bootstrap.css" media="screen" />
+        <script src="app.js"></script>
+        <script src="js\router.js"></script>
+        <script src="js\controllers\todoController.js"></script>
+        <script src="js\controllers\projectDescContrl.js"></script>
+        <script src="js\services\todoService.js"></script>
+    </head>
+  <body ng-app="toDoList" ng-controller="todoContrl">
+    <header>
+        <nav class="navbar navbar-default header">
+            <div class="container">
+                <div class="navbar-header">
+                `<a class="navbar-brand title">TODO List</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="input-group">
+          <input type="text" class="form-control" ng-model="search" placeholder="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Go!</button>
+          </span>
+        </div>
+        <br/>
+        <table class="table table-striped table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>ProjectId</th>
+                    <th>Project Name</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr  ng-repeat="x in todoProject | filter:search " ng-click="router(x.projectId)">
+                    <td>{{ x.projectId}}</td>
+                    <td> {{ x.projectName }}</td>
+                    <td>{{x.proejctStatus}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+     <br />
+     <div ui-view class="container"></div>
+   </body>
+</html>

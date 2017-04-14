@@ -1,0 +1,19 @@
+{
+	"1": {
+		"projectName" : "Kongsberg Automotive FMS",
+		"projectDescription" : "Kongsberg Automotive FMS is a Fleet management system web application to maintain all Vehicle details, monitoring of distance travelled, consumption of fuel, Lubricants and Maintenance of vehicles. It also provide driver services to log hours of service and complete inspection reports (DVIR). Thus this application minimize the risks associated with Fleet management like improving efficiency, productivity and reducing organization overall transportation and staff costs, providing 100% compliance with government legislation (duty of care) and many more."
+		},
+	
+	"2": {
+		"projectName" : "Leads Management system",
+		"projectDescription" :"Leads Management system is specially designed for Owens corning to track the leads coming to the company. By this system, the company can not only track but can schedule an appointment, generate reports based on user type, can see Old and closed leads and many more. The application also has the ability to expose its service which can be used by the other vendors to push the lead into the system. The system is designed in responsive Web Design manner so that the same application can be used on   Mobile & Tablets."
+		},
+	"3":{
+		 "projectName" : "Coldwell",
+		 "projectDescription" : "This is an auction site for a private agency. The s/w includes Bidding, registration, online chat, Buying and selling properties sections. The Buyers can bid for a property which is listed. If he bids highest bid, the ColdWell system will allocate the property after completing the formalities. The s/w sends these requests to the respective sellers.  The Buyers are allowed to accept the bid, buy the product, and pay the amount etc if he is authorized one. Buyers and sellers communicate each other. Bidding can be done in two ways one is direct method another one is through Broker/Realtor. "
+	 },
+	"4": {
+		"projectName" : "Auto Loss",
+		"projectDescription" : "Auto Loss Deals with vehicle Insurance Policy the person to Claim for an Accident who is already having Vehicle Insurance with Hart Ford. ARI is displayed which includes Loss, Violation and Suspension information for a particular driver. Automobile risk information for policy foundation includes Losses/Accidents, Convictions and license suspensions. This risk information may originate from user input, Clue interface, the motor Vehicle report (MVR) interface or the HARTFORD Claims system."
+	}
+}
